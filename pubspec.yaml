@@ -1,0 +1,22 @@
+name: flutter_architecture_ddd
+description: Flutter Architecture inspired by Domain Driven Design, Onion and Clean Architecture.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^4.0.1
+  flutter_bloc: ^4.0.0
+  equatable: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+
+flutter:
+  uses-material-design: true
